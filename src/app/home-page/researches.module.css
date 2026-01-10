@@ -1,0 +1,176 @@
+.maindiv {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-right: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.maindiv * {
+  box-sizing: border-box;
+}
+
+.maindiv .h1 {
+  font-size: 33px;
+  color: #3a8e9c;
+  font-weight: 500;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.listContainer {
+  width: 100%;
+  max-width: 1000px;
+}
+.aboutContainer {
+  width: 90%;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #373737;
+  margin-bottom: 30px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.listItem {
+  font-size: 18px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; /* Aligns dot with text */
+  gap: 8px; /* Space between dot and text */
+}
+
+.dot {
+  color: #0077b6;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.listItem a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
+.listItem a:hover {
+  text-decoration: underline;
+}
+
+/* Large Screens - Reduce to 4 columns */
+@media (max-width: 1450px) {
+  .maindiv {
+    padding: 50px;
+  }
+}
+
+/* Medium Screens - Reduce to 3 columns */
+@media (max-width: 1200px) {
+  .maindiv {
+    padding: 50px;
+  }
+}
+
+/* Small Screens (Tablets) - Reduce to 2 columns */
+@media (max-width: 920) {
+  .maindiv {
+    padding: 10px;
+  }
+  .maindiv .h1 {
+    margin-left: 45px;
+    margin-bottom: 20px;
+  }
+  .listItem {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .viewAllBtn {
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  .aboutContainer {
+    margin-left: 30px;
+  }
+}
+
+.bigContainer {
+  display: flex;
+  gap: 50px; /* Space between links and image */
+  align-items: center; /* Center-align links and image */
+  width: 100%;
+}
+
+/* Image container: Hidden by default, shown when space is available */
+.imageContainer {
+  flex: 1; /* Takes the remaining space */
+  min-width: 450px; /* Ensures image never goes below 300px */
+  max-width: 600px; /* Limit max width */
+  height: auto;
+  display: none; /* Hidden by default */
+  position: relative;
+}
+
+/* Image: Expands to fit space while maintaining aspect ratio */
+.imageRes {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Adjust max height as needed */
+  object-fit: cover;
+  opacity: 0;
+  transform: translateY(40px) scale(1.1);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Apply animation when image is visible */
+.imageContainer img {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.viewAllBtn {
+  background-color: #a4e0e5;
+  color: #3a8e9c;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  list-style: none;
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-left: 90px;
+}
+
+.viewAllBtn:hover {
+  background-color: #0e7490;
+  color: #a4e0e5;
+}
+
+/* Show image only if space is available */
+@media (min-width: 1000px) {
+  .imageContainer {
+    display: block;
+  }
+}
+/* Reduce gap instead of shrinking image size */
+@media (max-width: 1200px) {
+  .bigContainer {
+    gap: 20px; /* Reduce space between elements */
+  }
+}

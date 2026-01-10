@@ -1,0 +1,34 @@
+[
+  {
+    "FullName": "Abe Davis",
+    "ResearchAreaInterest": "Assistant Professor @ Cornell University",
+    "Bio": "I am an assistant professor of Computer Science at Cornell University. I specialize in computer graphics, computer vision, human-computer interaction (HCI), as well as a random sampling of other topics.",
+    "Picture": "AbeDavis.png",
+    "GithubWebsite": "https://abedavis.com/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/abedavis/"
+  },
+  {
+    "FullName": "Bharath Hariharan",
+    "ResearchAreaInterest": "Professor @ Cornell University",
+    "Bio": "I am an associate professor in Computer Science at Cornell University. I work on computer vision and machine learning, in particular on important problems that defy the \"Big Data\" label. I enjoy problems that require marrying advances in machine learning with insights from computer vision, geometry and domain-specific knowledge.",
+    "Picture": "BharathHariharan.jpg",
+    "GithubWebsite": "https://www.cs.cornell.edu/~bharathh/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/bharath-hariharan-41a70a284/"
+  },
+  {
+    "FullName": "Kavita Bala",
+    "ResearchAreaInterest": "Provost, Professor @ Cornell University",
+    "Bio": "Kavita Bala, a computer scientist, entrepreneur, and professor, became the 17th provost of Cornell University on January 1, 2025. She brings a distinguished record of leadership and scholarship to the role. Prior to her appointment, Bala served as the inaugural dean of the Cornell Ann S. Bowers College of Computing and Information Science and as chair of Cornell's department of Computer Science. Her foundational research in computer vision, computer graphics, and artificial intelligence has been recognized by election to the American Academy of Arts & Sciences and by induction as a Fellow of the Association for Computing Machinery (ACM).",
+    "Picture": "KavitaBala.jpg",
+    "GithubWebsite": "https://www.cs.cornell.edu/~kb/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/kavita-bala-052409/"
+  },
+  {
+    "FullName": "Steve Marschner",
+    "ResearchAreaInterest": "Director of Graduate Studies @ Cornell University",
+    "Bio": "My research and teaching are in computer graphics and vision, centered around how optics and mechanics determine the appearance of materials. I got my Ph.D. from Cornell in 1998, and held research positions at HP Laboratories, Microsoft Research, and Stanford University before I rejoined Cornell in 2002. I work part-time in the Real-Time Graphics Research group at NVIDIA Research.",
+    "Picture": "SteveMarschner.png",
+    "GithubWebsite": "https://www.cs.cornell.edu/~srm/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/steve-marschner-6087732a3/"
+  }
+]

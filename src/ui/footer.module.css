@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures center content is actually centered */
+  flex-wrap: wrap; /* Ensures wrapping on small screens */
+  padding: 20px;
+  background-color: #3a8e9c;
+  color: white;
+  font-family: "Monomaniac One", sans-serif;
+  width: 100%;
+  position: relative; /* Needed to handle centering better */
+}
+
+/* Left Section - Logo + CVGRI */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 20px; /* Ensures it stays on the left */
+}
+
+/* Logo Text */
+.logoText {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Center Section - Middle Text */
+.center {
+  text-align: center; /* Ensures text is truly centered */
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Year Text */
+.year {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: static; /* Resets absolute positioning for mobile */
+  }
+
+  .left {
+    position: static; /* Moves logo to the center in mobile */
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logoText {
+    font-size: 2.5rem;
+  }
+}

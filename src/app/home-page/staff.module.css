@@ -1,0 +1,190 @@
+.maindiv {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Monomaniac One", sans-serif;
+  font-weight: 400;
+}
+
+.maindiv * {
+  box-sizing: border-box;
+}
+
+.maindiv .h1 {
+  font-size: 33px;
+  color: #3a8e9c;
+  font-weight: 500;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.maindiv .h3 {
+  font-size: 23px;
+  color: #3a8e9c;
+  font-weight: 100;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.divh3 {
+  display: block;
+  width: 100%;
+}
+/* Updated grid for responsiveness */
+.cardcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default: 3 columns */
+  gap: 20px;
+  margin: 0 auto;
+}
+
+/* Ensure cards take full width of their grid space */
+.cardcontainer .card {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+}
+
+/* Media Queries for Responsive Layout */
+
+/* Large Screens - Reduce to 4 columns */
+/* @media (max-width: 1400px) {
+  .cardcontainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .maindiv {
+    padding: 50px;
+  }
+} */
+
+/* Medium Screens - Reduce to 3 columns */
+@media (max-width: 1400px) {
+  .cardcontainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .maindiv {
+    padding: 50px;
+  }
+}
+
+/* Small Screens (Tablets) - Reduce to 2 columns */
+@media (max-width: 1200) {
+  .cardcontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .maindiv {
+    padding: 30px;
+  }
+  .maindiv .h1 {
+    margin-left: 30px;
+  }
+}
+
+/* Extra Small Screens (Mobile) - Reduce to 1 column */
+
+.cardcontainer .card {
+  font-weight: 600;
+  position: relative;
+  width: 100%;
+}
+.cardcontainer .card .a {
+  padding: 30px;
+  width: 100%;
+  /* min-height: 400px; Ensures consistent base size */
+  border: 2px solid white;
+  background: none;
+  text-decoration: none;
+  color: #3a8e9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    border-color 0.25s ease, min-height 0.25s ease;
+  overflow: hidden;
+  position: relative;
+}
+.cardcontainer .card .a:hover {
+  transform: scale(1.07);
+  border-color: #ebebeb;
+  border-radius: 30px;
+  background-color: none;
+  color: #2c737f;
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  min-height: 100%;
+}
+
+@media (max-width: 700px) {
+  .cardcontainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .maindiv {
+    padding: 20px;
+  }
+  .cardcontainer .card .a:hover {
+    min-height: 400px;
+  }
+}
+
+.cardcontainer .card .a .carddisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cardcontainer .card .a:hover .carddisplay {
+  display: none;
+}
+.cardcontainer .card .a .carddisplay i {
+  font-size: 60px;
+  margin-top: 200px;
+}
+.cardcontainer .card .a .carddisplay h2 {
+  margin: 20px 0 0;
+  font-size: 26px;
+  font-weight: 200;
+}
+.cardcontainer .card .a .carddisplay p {
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.cardcontainer .card .a .carddisplay img {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.cardcontainer .card .a .cardhover {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, min-height 0.3s ease;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cardcontainer .card .a:hover .cardhover {
+  display: block;
+  opacity: 1;
+  position: relative;
+  min-height: fit-content;
+}
+.cardcontainer .card .a .cardhover h2 {
+  margin: 20px 0;
+}
+.cardcontainer .card .a .cardhover p {
+  font-weight: normal;
+  line-height: 1.5;
+}
+.cardcontainer .card .a .cardhover p.link {
+  margin: 20px 0 0;
+  font-weight: bold;
+  color: #a4e0e5;
+}
