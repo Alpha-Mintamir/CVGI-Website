@@ -1,12 +1,15 @@
 "use client"; // For Next.js App Router
 import React, { useState } from "react";
 import styles from "./gallery.module.css"; // Importing local CSS file
+import { getAssetPath } from "@/lib/basePath";
 
 interface GalleryProps {
   images: string[];
 }
 
-const Gallery: React.FC<GalleryProps> = ({ images }) => {
+const Gallery: React.FC<GalleryProps> = ({ images: rawImages }) => {
+  // Apply basePath to all images
+  const images = rawImages.map(img => getAssetPath(img));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);

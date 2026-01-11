@@ -4,6 +4,7 @@ import { Ubuntu_Sans } from "next/font/google";
 import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { getAssetPath } from "@/lib/basePath";
 
 const monomaniacOne = Monomaniac_One({ weight: "400", subsets: ["latin"] });
 const ubuntu = Ubuntu_Sans({
@@ -101,7 +102,7 @@ const ResearchProjects: React.FC = () => {
         }}
       >
         <img
-          src={projects[activeIndex].image}
+          src={getAssetPath(projects[activeIndex].image)}
           alt="Research preview"
           style={{
             width: "100%",

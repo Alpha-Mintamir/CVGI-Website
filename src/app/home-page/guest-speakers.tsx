@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "./staff.module.css";
 import styles2 from "./researches.module.css";
+import { getAssetPath } from "@/lib/basePath";
 
 import Link from "next/link";
 
@@ -20,7 +21,7 @@ export default function GuestSpeakers() {
   useEffect(() => {
     async function fetchCards() {
       try {
-        const response = await fetch("/guestData.json");
+        const response = await fetch(getAssetPath("/guestData.json"));
         if (!response.ok) throw new Error("Failed to fetch student data");
         const data: CardData[] = await response.json();
         setStudents(data);
@@ -45,7 +46,7 @@ export default function GuestSpeakers() {
             <div className={`${styles.a} ${styles.noHover}`}>
               <div className={styles.carddisplay}>
                 <img
-                  src={`./Avatars/GuestSpeakers/${staff.Picture}`}
+                  src={getAssetPath(`/Avatars/GuestSpeakers/${staff.Picture}`)}
                   alt={staff.FullName}
                 />
                 <h2 className={styles.h2}>{staff.FullName}</h2>

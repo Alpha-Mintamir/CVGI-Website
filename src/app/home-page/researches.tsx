@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import styles from "./researches.module.css";
+import { getAssetPath } from "@/lib/basePath";
 
 const projects = [
   {
@@ -60,7 +61,7 @@ export default function ResearchProjects() {
           <Link href={project.link} key={index} className={styles.posterCard}>
             <div className={styles.posterImageWrapper}>
               <img
-                src={project.image}
+                src={getAssetPath(project.image)}
                 alt={project.title}
                 className={styles.posterImage}
               />
