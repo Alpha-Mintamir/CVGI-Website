@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import styles from "./staff.module.css";
-import { getAssetPath } from "@/lib/basePath";
 
 interface CardData {
   FullName: string;
@@ -20,8 +19,8 @@ export default function StaffSection() {
     async function fetchData() {
       try {
         const [organizersRes, tasRes] = await Promise.all([
-          fetch(getAssetPath("/organizersData.json")),
-          fetch(getAssetPath("/tasData.json")),
+          fetch("/organizersData.json"),
+          fetch("/tasData.json"),
         ]);
 
         if (!organizersRes.ok) throw new Error("Failed to fetch organizers data");
@@ -45,7 +44,7 @@ export default function StaffSection() {
       <div className={styles.a}>
         <div className={styles.carddisplay}>
           <img
-            src={getAssetPath(`/Avatars/Mentors/${staff.Picture}`)}
+            src={`./Avatars/Mentors/${staff.Picture}`}
             alt={staff.FullName}
           />
           <h2 className={styles.h2}>{staff.FullName}</h2>

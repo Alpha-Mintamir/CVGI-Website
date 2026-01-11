@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import styles from "./student.module.css";
-import { getAssetPath } from "@/lib/basePath";
 
 interface CardData {
   FullName: string;
@@ -18,7 +17,7 @@ export default function StudentSection() {
   useEffect(() => {
     async function fetchCards() {
       try {
-        const response = await fetch(getAssetPath("/sorted_studentData2 (2).json"));
+        const response = await fetch("/sorted_studentData2 (2).json");
         if (!response.ok) throw new Error("Failed to fetch student data");
         const data: CardData[] = await response.json();
         setStudents(data);
@@ -40,7 +39,7 @@ export default function StudentSection() {
             <a className={styles.a} target="_blank" rel="noopener noreferrer">
               <div className={styles.carddisplay}>
                 <img
-                  src={getAssetPath(`/Avatars/Students/${student.Picture}`)}
+                  src={`./Avatars/Students/${student.Picture}`}
                   alt={student.FullName}
                 />
                 <h2 className={styles.h2}>{student.FullName}</h2>
