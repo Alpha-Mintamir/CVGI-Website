@@ -67,7 +67,7 @@
 }
 
 /* Small Screens (Tablets) - Reduce to 2 columns */
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
   .cardcontainer {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -76,6 +76,39 @@
   }
   .maindiv .h1 {
     margin-left: 30px;
+  }
+  .maindiv .h3 {
+    margin-left: 30px;
+  }
+}
+
+/* Tablet Screens */
+@media (max-width: 920px) {
+  .maindiv {
+    padding: 20px;
+  }
+  .maindiv .h1 {
+    margin-left: 20px;
+    font-size: 28px;
+  }
+  .maindiv .h3 {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 600px) {
+  .maindiv {
+    padding: 15px;
+  }
+  .maindiv .h1 {
+    margin-left: 10px;
+    font-size: 26px;
+  }
+  .maindiv .h3 {
+    margin-left: 10px;
+    font-size: 18px;
   }
 }
 
@@ -135,6 +168,19 @@
 }
 .cardcontainer .card .a:hover .carddisplay {
   display: none;
+}
+
+/* Guest speakers - no hover effect, keep carddisplay visible */
+.noHover {
+  cursor: default;
+}
+.cardcontainer .card .a.noHover:hover .carddisplay {
+  display: flex;
+}
+.cardcontainer .card .a.noHover:hover {
+  transform: none;
+  border-color: white;
+  border-radius: 0;
 }
 .cardcontainer .card .a .carddisplay i {
   font-size: 60px;

@@ -1,0 +1,51 @@
+[
+  {
+    "FullName": "Gemmechu Hassena",
+    "ResearchAreaInterest": "PhD Computer Science @ Cornell University",
+    "Bio": "I am a CS PhD student at Cornell University working at the intersection of Machine Learning, Computer Vision, and Graphics. More specifically, my research focuses on 3D reconstruction, relighting, and scene understanding under occlusion. Prior to Cornell, I earned my Bachelor's in Software Engineering from Addis Ababa University, Ethiopia. I also worked as a research intern at École Polytechnique and the University of Michigan, as well as a product manager at A2SV.",
+    "Picture": "GemmechuHassena.jpg",
+    "GithubWebsite": "https://gemmechu.github.io/",
+    "LinkedinWebsite": "https://et.linkedin.com/in/gemmechu"
+  },
+  {
+    "FullName": "Ayda Sultan",
+    "ResearchAreaInterest": "ML Researcher @ Algoverse",
+    "Bio": "My research interests focus on generative model interpretability and evaluation, with a particular goal of reverse engineering the learned algorithms within neural networks. Ultimately, I seek to explore ways to inject and modify concepts in these networks, advancing our ability to refine and control their learning processes.",
+    "Picture": "AydaSultan.png",
+    "GithubWebsite": "https://ashhass.github.io/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/ayda-sultan/"
+  },
+  {
+    "FullName": "Surafel Kindu Mulaw",
+    "ResearchAreaInterest": "Software Engineer @ TestSavant.AI",
+    "Bio": "I am a Full-Stack Developer with a deep interest in Large Language Models (LLMs) and Computer Vision. My work focuses on developing AI-driven solutions, with ongoing research in prompt security and AI guardrails. Beyond development, I'm passionate about exploring cutting-edge advancements in machine learning to solve real-world problems. I'm always eager to collaborate on innovative research projects in AI, particularly in the fields of NLP and vision.",
+    "Picture": "SurafelKinduMulaw.png",
+    "GithubWebsite": "https://github.com/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/surafelk/"
+  },
+  {
+    "FullName": "Mahlet Dereje Haile",
+    "ResearchAreaInterest": "Site Reliability Engineer @ Google",
+    "Bio": "I am a software engineer specializing in backend development, with a blend of industry and research experience. Fascinated by how technology can improve lives, I am committed to contributing to projects that make a meaningful difference. While continuously learning and growing, I am equally dedicated to mentorship and knowledge-sharing, fostering inclusive tech communities, and helping the next generation of engineers and researchers.",
+    "Picture": "MahletDerejeHaile.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": "https://www.linkedin.com/in/mahlet-dereje-haile"
+  },
+  {
+    "FullName": "Kushal Kedia",
+    "ResearchAreaInterest": "Visiting Researcher @ Stanford University",
+    "Bio": "I am a third-year Ph.D. student in the Computer Science Department at Cornell University, advised by Prof. Sanjiban Choudhury. I am interested in building robots that can help humans in everyday tasks.",
+    "Picture": "KushalKedia.jpg",
+    "GithubWebsite": "https://kushal2000.github.io/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/kushal-kedia/"
+  },
+  {
+    "FullName": "Katie Luo",
+    "ResearchAreaInterest": "Postdoctoral Researcher @ Stanford University",
+    "Bio": "Katie Luo is a Ph.D. student at Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Bharath Hariharan. Katie's research focuses on computer vision and perception for self-driving, with an end goal of bringing self-driving to a diverse set of end users. Prior to her Ph.D, Katie was an AI Resident at Uber ATG (now part of Aurora), and she received a B.Sc. and M.S. in Electrical Engineering and Computer Science from the University of California, Berkeley. She is also fortunate to have been supported by a Cornell University Fellowship, an Nvidia Graduate Student Fellowship, and an American Association of University Women (AAUW) Dissertation Fellowship Award.",
+    "Picture": "KatieLuo.jpg",
+    "GithubWebsite": "https://www.cs.cornell.edu/~katieluo/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/katieluo/"
+  }
+]
+

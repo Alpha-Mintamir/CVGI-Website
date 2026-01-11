@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
 import styles from "./researches.module.css";
 
@@ -28,7 +27,7 @@ const projects = [
     link: "/research/group4",
   },
   {
-    title: "Adversarial Pixels: Exploring Why Vision Tasks Aren’t Fully Solved",
+    title: "Adversarial Pixels: Exploring Why Vision Tasks Aren't Fully Solved",
     image: "/Research Project Images/Adversarial Pixels.png",
     link: "/research/group5",
   },
@@ -49,8 +48,6 @@ const projects = [
 ];
 
 export default function ResearchProjects() {
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
   return (
     <div className={styles.maindiv}>
       <h2 className={styles.h1}>Research Projects</h2>
@@ -58,29 +55,19 @@ export default function ResearchProjects() {
         <button className={styles.viewAllBtn}>View All Researches</button>
       </Link>
 
-      <div className={styles.bigContainer}>
-        <div className={styles.listContainer}>
-          <ul className={styles.list}>
-            {projects.map((project, index) => (
-              <li
-                key={index}
-                className={styles.listItem}
-                onMouseEnter={() => setSelectedIndex(index)}
-              >
-                <span className={styles.dot}>•</span>
-                <Link href={project.link}>{project.title}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className={styles.imageContainer}>
-          <img
-            src={projects[selectedIndex].image}
-            className={styles.imageRes}
-            alt="Project preview"
-          />
-        </div>
+      <div className={styles.galleryGrid}>
+        {projects.map((project, index) => (
+          <Link href={project.link} key={index} className={styles.posterCard}>
+            <div className={styles.posterImageWrapper}>
+              <img
+                src={project.image}
+                alt={project.title}
+                className={styles.posterImage}
+              />
+            </div>
+            <h3 className={styles.posterTitle}>{project.title}</h3>
+          </Link>
+        ))}
       </div>
     </div>
   );

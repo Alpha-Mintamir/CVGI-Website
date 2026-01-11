@@ -56,15 +56,27 @@
 }
 
 /* Small Screens (Tablets) - Reduce to 2 columns */
-@media (max-width: 920) {
+@media (max-width: 920px) {
   .cardcontainer {
     grid-template-columns: repeat(2, 1fr);
   }
   .maindiv {
-    padding: 30px;
+    padding: 20px;
   }
   .maindiv .h1 {
-    margin-left: 30px;
+    margin-left: 20px;
+    font-size: 28px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 600px) {
+  .maindiv {
+    padding: 15px;
+  }
+  .maindiv .h1 {
+    margin-left: 10px;
+    font-size: 26px;
   }
 }
 

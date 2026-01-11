@@ -89,10 +89,23 @@
 
 .hh1 {
   font-family: "Monomaniac One", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 33px;
   color: #3a8e9c;
-  font-weight: 500;
   margin-left: 70px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 920px) {
+  .hh1 {
+    margin-left: 20px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hh1 {
+    margin-left: 15px;
+    font-size: 26px;
+  }
 }

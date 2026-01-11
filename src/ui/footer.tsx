@@ -9,12 +9,12 @@ export default function Footer() {
       {/* Left Section - Logo and CVGRI */}
       <div className={styles.left}>
         <Image src="/favicon.ico" alt="CVGRI Logo" width={60} height={50} />
-        <span className={styles.logoText}>CVGRI</span>
+        <span className={styles.logoText}>CVGI</span>
       </div>
 
       {/* Center Section - Middle Text */}
       <div className={styles.center}>
-        <p>Made by CVGRI Team</p>
+        <p>Made by CVGI Team</p>
         <p className={styles.year}>2025</p>
       </div>
     </footer>

@@ -9,6 +9,7 @@ import StaffSection from "./home-page/staff";
 import ProgramSection from "./home-page/ProgramSection";
 import GallerySection from "./home-page/GallerySection";
 import GuestSpeakers from "./home-page/guest-speakers";
+import AcknowledgementsSection from "./home-page/acknowledgements";
 
 export default function Home() {
   const images = [
@@ -66,6 +67,11 @@ export default function Home() {
       <section id="gallery">
         <h1 className={styles.hh1}>Gallery</h1>
         <GallerySection images={images} />
+      </section>
+
+      {/* Acknowledgements Section */}
+      <section id="acknowledgements">
+        <AcknowledgementsSection />
       </section>
       <Footer />
     </div>

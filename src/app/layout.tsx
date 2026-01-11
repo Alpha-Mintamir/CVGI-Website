@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CVGRI 2025",
-  description: "Developed by the CVGRI Team",
+  title: "CVGI 2025",
+  description: "Developed by the CVGI Team",
 };
 
 export default function RootLayout({

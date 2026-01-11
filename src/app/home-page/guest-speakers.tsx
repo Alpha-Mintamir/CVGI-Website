@@ -42,7 +42,7 @@ export default function GuestSpeakers() {
       <div className={styles.cardcontainer}>
         {staff.map((staff, index) => (
           <div key={index} className={styles.card}>
-            <a className={styles.a} target="_blank" rel="noopener noreferrer">
+            <div className={`${styles.a} ${styles.noHover}`}>
               <div className={styles.carddisplay}>
                 <img
                   src={`./Avatars/GuestSpeakers/${staff.Picture}`}
@@ -52,46 +52,7 @@ export default function GuestSpeakers() {
                 <br />
                 <p>{staff.ResearchAreaInterest}</p>
               </div>
-              <div className={styles.cardhover}>
-                <h2>{staff.FullName}</h2>
-                <p>{staff.Bio}</p>
-                <br />
-                <a
-                  href={staff.GithubWebsite || "#"}
-                  target="_blank"
-                  title={
-                    staff.GithubWebsite
-                      ? "Visit GitHub Profile"
-                      : "No GitHub Available"
-                  }
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <i
-                    className="fa fa-github"
-                    style={{ fontSize: "24px", marginRight: "5px" }}
-                  ></i>
-                  GitHub/Website
-                </a>
-
-                <br />
-                <a
-                  href={staff.LinkedinWebsite || "#"}
-                  target="_blank"
-                  title={
-                    staff.LinkedinWebsite
-                      ? "Visit LinkedIn Profile"
-                      : "No LinkedIn Available"
-                  }
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <i
-                    className="fa fa-linkedin"
-                    style={{ fontSize: "24px", marginRight: "5px" }}
-                  ></i>
-                  LinkedIn
-                </a>
-              </div>
-            </a>
+            </div>
           </div>
         ))}
       </div>

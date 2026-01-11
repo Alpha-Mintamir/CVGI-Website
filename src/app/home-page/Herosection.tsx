@@ -16,7 +16,6 @@ export default function HeroSection() {
       <div className={styles.heroContent}>
         <p className={styles.heroTitle}>Computer Vision and Graphics</p>
         <p className={styles.heroTitle}>Research Initiative</p>
-        <p className={styles.heroYear}>2024</p>
       </div>
     </div>
   );

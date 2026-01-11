@@ -12,22 +12,84 @@ interface CardData {
 }
 
 export default function StaffSection() {
-  const [staff, setStudents] = useState<CardData[]>([]);
+  const [organizers, setOrganizers] = useState<CardData[]>([]);
+  const [tas, setTas] = useState<CardData[]>([]);
 
   useEffect(() => {
-    async function fetchCards() {
+    async function fetchData() {
       try {
-        const response = await fetch("/staffData (2).json");
-        if (!response.ok) throw new Error("Failed to fetch student data");
-        const data: CardData[] = await response.json();
-        setStudents(data);
+        const [organizersRes, tasRes] = await Promise.all([
+          fetch("/organizersData.json"),
+          fetch("/tasData.json"),
+        ]);
+
+        if (!organizersRes.ok) throw new Error("Failed to fetch organizers data");
+        if (!tasRes.ok) throw new Error("Failed to fetch TAs data");
+
+        const organizersData: CardData[] = await organizersRes.json();
+        const tasData: CardData[] = await tasRes.json();
+
+        setOrganizers(organizersData);
+        setTas(tasData);
       } catch (error) {
-        console.error("Error fetching student data:", error);
+        console.error("Error fetching staff data:", error);
       }
     }
 
-    fetchCards();
+    fetchData();
   }, []);
+
+  const renderStaffCard = (staff: CardData, index: number) => (
+    <div key={index} className={styles.card}>
+      <div className={styles.a}>
+        <div className={styles.carddisplay}>
+          <img
+            src={`./Avatars/Mentors/${staff.Picture}`}
+            alt={staff.FullName}
+          />
+          <h2 className={styles.h2}>{staff.FullName}</h2>
+          <br />
+          <p>{staff.ResearchAreaInterest}</p>
+        </div>
+        <div className={styles.cardhover}>
+          <h2>{staff.FullName}</h2>
+          <p>{staff.Bio}</p>
+          <br />
+          {staff.GithubWebsite && staff.GithubWebsite !== "https://github.com/" && (
+            <a
+              href={staff.GithubWebsite}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Visit GitHub Profile"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <i
+                className="fa fa-github"
+                style={{ fontSize: "24px", marginRight: "5px" }}
+              ></i>
+              GitHub/Website
+              <br />
+            </a>
+          )}
+          {staff.LinkedinWebsite && (
+            <a
+              href={staff.LinkedinWebsite}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Visit LinkedIn Profile"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <i
+                className="fa fa-linkedin"
+                style={{ fontSize: "24px", marginRight: "5px" }}
+              ></i>
+              LinkedIn
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <div className={styles.maindiv}>
@@ -35,64 +97,21 @@ export default function StaffSection() {
       <br />
       <br />
       <div className={styles.divh3}>
-        <h3 className={styles.h3}>Organizers and Mentors</h3>
+        <h3 className={styles.h3}>Organizers</h3>
       </div>
       <br />
       <div className={styles.cardcontainer}>
-        {staff.map((staff, index) => (
-          <div key={index} className={styles.card}>
-            <a className={styles.a} target="_blank" rel="noopener noreferrer">
-              <div className={styles.carddisplay}>
-                <img
-                  src={`./Avatars/Mentors/${staff.Picture}`}
-                  alt={staff.FullName}
-                />
-                <h2 className={styles.h2}>{staff.FullName}</h2>
-                <br />
-                <p>{staff.ResearchAreaInterest}</p>
-              </div>
-              <div className={styles.cardhover}>
-                <h2>{staff.FullName}</h2>
-                <p>{staff.Bio}</p>
-                <br />
-                <a
-                  href={staff.GithubWebsite || "#"}
-                  target="_blank"
-                  title={
-                    staff.GithubWebsite
-                      ? "Visit GitHub Profile"
-                      : "No GitHub Available"
-                  }
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <i
-                    className="fa fa-github"
-                    style={{ fontSize: "24px", marginRight: "5px" }}
-                  ></i>
-                  GitHub/Website
-                </a>
+        {organizers.map((staff, index) => renderStaffCard(staff, index))}
+      </div>
 
-                <br />
-                <a
-                  href={staff.LinkedinWebsite || "#"}
-                  target="_blank"
-                  title={
-                    staff.LinkedinWebsite
-                      ? "Visit LinkedIn Profile"
-                      : "No LinkedIn Available"
-                  }
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <i
-                    className="fa fa-linkedin"
-                    style={{ fontSize: "24px", marginRight: "5px" }}
-                  ></i>
-                  LinkedIn
-                </a>
-              </div>
-            </a>
-          </div>
-        ))}
+      <br />
+      <br />
+      <div className={styles.divh3}>
+        <h3 className={styles.h3}>Teaching Assistants</h3>
+      </div>
+      <br />
+      <div className={styles.cardcontainer}>
+        {tas.map((staff, index) => renderStaffCard(staff, index))}
       </div>
     </div>
   );
