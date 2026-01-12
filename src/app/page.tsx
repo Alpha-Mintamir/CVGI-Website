@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "@/ui/navbar";
 import Footer from "@/ui/footer";
+import ProgramSection from "@/app/home-page/ProgramSection";
 
 export default function Home() {
   return (
@@ -113,6 +114,11 @@ export default function Home() {
             <span className={styles.statLabel}>Guest Speakers</span>
           </div>
         </div>
+      </section>
+
+      {/* Program Section */}
+      <section className={styles.programSection}>
+        <ProgramSection />
       </section>
 
       <Footer />

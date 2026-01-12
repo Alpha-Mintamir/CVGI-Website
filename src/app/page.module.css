@@ -225,6 +225,14 @@
   font-family: "Ubuntu Sans", sans-serif;
 }
 
+/* Program Section */
+.programSection {
+  padding: 80px 50px;
+  background: #f8fafc;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Legacy styles kept for compatibility */
 .hh1 {
   font-family: "Monomaniac One", sans-serif;

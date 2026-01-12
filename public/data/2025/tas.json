@@ -1,7 +1,7 @@
 [
   {
     "FullName": "Katie Luo",
-    "ResearchAreaInterest": "RA",
+    "ResearchAreaInterest": "mentor",
     "Bio": "Ph.D. from Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Bharath Hariharan. Research focuses on computer vision and perception for self-driving.",
     "Picture": "KatieLuo.jpg",
     "GithubWebsite": "https://www.cs.cornell.edu/~katieluo/",
@@ -33,7 +33,7 @@
   },
   {
     "FullName": "Alpha Lencho",
-    "ResearchAreaInterest": "TA",
+    "ResearchAreaInterest": "TA & organizer",
     "Bio": "Alpha Lencho is a final-year Information Systems student at Addis Ababa University. He is passionate about working with data and exploring its potential. His main interests are in Machine Learning, especially Natural Language Processing and Computer Vision.",
     "Picture": "AlphaLencho.jpeg",
     "GithubWebsite": "https://github.com/Alpha-Mintamir",
@@ -57,7 +57,7 @@
   },
   {
     "FullName": "Sebrina Mudesir",
-    "ResearchAreaInterest": "TA",
+    "ResearchAreaInterest": "TA & organizer",
     "Bio": "",
     "Picture": "SebrinaMudesir.jpg",
     "GithubWebsite": "",

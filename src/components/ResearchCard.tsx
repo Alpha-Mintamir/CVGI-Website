@@ -50,3 +50,4 @@ export function ResearchGrid({ projects, cohort }: ResearchGridProps) {
 
 export default ResearchCard;
 
+

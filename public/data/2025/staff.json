@@ -1,7 +1,7 @@
 [
   {
     "FullName": "Gemmechu Hassena",
-    "ResearchAreaInterest": "Mentor",
+    "ResearchAreaInterest": "Mentor & Organizer",
     "Bio": "I am a CS PhD student at Cornell University working at the intersection of Machine Learning, Computer Vision, and Graphics. My research focuses on 3D reconstruction, relighting, and scene understanding under occlusion.",
     "Picture": "GemmechuHassena.jpg",
     "GithubWebsite": "https://gemmechu.github.io/",
@@ -24,10 +24,10 @@
     "LinkedinWebsite": "https://www.linkedin.com/in/biruk-abere-479aba215/"
   },
   {
-    "FullName": "Bontu",
+    "FullName": "Bontu Fufa Balcha",
     "ResearchAreaInterest": "Mentor",
     "Bio": "",
-    "Picture": "Bontu.jpg",
+    "Picture": "BontuFufaBalcha.jpg",
     "GithubWebsite": "",
     "LinkedinWebsite": ""
   },
@@ -49,18 +49,26 @@
   },
   {
     "FullName": "Surafel Kindu",
-    "ResearchAreaInterest": "Mentor",
+    "ResearchAreaInterest": "Mentor & Organizer",
     "Bio": "Full-Stack Developer with a deep interest in Large Language Models (LLMs) and Computer Vision. Focused on developing AI-driven solutions, with ongoing research in prompt security and AI guardrails.",
     "Picture": "SurafelKindu.jpg",
     "GithubWebsite": "",
     "LinkedinWebsite": "https://www.linkedin.com/in/surafelk/"
   },
   {
-    "FullName": "Zichen",
+    "FullName": "Zichen Wang",
     "ResearchAreaInterest": "Mentor",
     "Bio": "",
-    "Picture": "Zichen.jpg",
+    "Picture": "ZichenWang.jpg",
     "GithubWebsite": "",
     "LinkedinWebsite": ""
+  },
+  {
+    "FullName": "Aditya Chetan",
+    "ResearchAreaInterest": "Assistant & Organizer",
+    "Bio": "PhD student at Cornell University working in Graphics and Vision. Previously Research Fellow at Microsoft Research India. Completed undergraduate from IIIT Delhi, majoring in Computer Science and Applied Mathematics.",
+    "Picture": "AdityaChetan.jpg",
+    "GithubWebsite": "https://github.com/justachetan",
+    "LinkedinWebsite": "https://www.linkedin.com/in/achetan"
   }
 ]

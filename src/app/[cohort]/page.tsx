@@ -6,6 +6,7 @@ import styles from "./cohort.module.css";
 import { PersonGrid, Person } from "@/components/PersonCard";
 import { ResearchGrid, ResearchProject } from "@/components/ResearchCard";
 import GallerySection from "@/app/home-page/GallerySection";
+import AcknowledgementsSection from "@/components/AcknowledgementsSection";
 
 const validCohorts = ["2024", "2025"];
 
@@ -137,6 +138,9 @@ export default async function CohortPage({ params }: CohortPageProps) {
           <GallerySection images={galleryImages} />
         </section>
       )}
+
+      {/* Acknowledgements Section */}
+      <AcknowledgementsSection cohort={cohort} />
     </div>
   );
 }
