@@ -117,9 +117,9 @@ export default function Home() {
       </section>
 
       {/* Program Section */}
-      <section className={styles.programSection}>
+      {/* <section className={styles.programSection}>
         <ProgramSection />
-      </section>
+      </section> */}
 
       <Footer />
     </div>
