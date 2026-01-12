@@ -1,0 +1,97 @@
+/* Research Card Styles - Reusable for Research Projects */
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.posterCard {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: #f8f9fa;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.posterCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(58, 142, 156, 0.2);
+}
+
+.posterImageWrapper {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #e9ecef;
+}
+
+.posterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.posterCard:hover .posterImage {
+  transform: scale(1.05);
+}
+
+.posterTitle {
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3a8e9c;
+  font-family: "Ubuntu Sans", sans-serif;
+  line-height: 1.4;
+  text-align: center;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet - 2 columns */
+@media (max-width: 1200px) {
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+/* Tablet smaller */
+@media (max-width: 920px) {
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .posterTitle {
+    font-size: 13px;
+    padding: 12px;
+    min-height: 60px;
+  }
+}
+
+/* Mobile - 1 column */
+@media (max-width: 600px) {
+  .galleryGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .posterImageWrapper {
+    aspect-ratio: 4 / 5;
+  }
+  
+  .posterTitle {
+    font-size: 14px;
+    padding: 14px;
+    min-height: auto;
+  }
+}
+

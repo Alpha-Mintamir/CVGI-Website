@@ -1,0 +1,173 @@
+/* Person Card Styles - Reusable for Students, Staff, TAs, etc. */
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+}
+
+/* Responsive grid */
+@media (max-width: 1450px) {
+  .cardGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 920px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .cardGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Card Container */
+.card {
+  font-weight: 600;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cardInner {
+  padding: 30px;
+  width: 100%;
+  border: 2px solid white;
+  background: none;
+  text-decoration: none;
+  color: #3a8e9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    border-color 0.25s ease, min-height 0.25s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardInner:hover {
+  transform: scale(1.07);
+  border-color: #ebebeb;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #2c737f;
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  min-height: 100%;
+}
+
+@media (max-width: 700px) {
+  .cardInner:hover {
+    min-height: 100%;
+  }
+}
+
+/* Default Display State */
+.cardDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cardInner:hover .cardDisplay {
+  display: none;
+}
+
+/* Image container with fixed aspect ratio */
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f0f0f0;
+}
+
+.cardDisplay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.cardInner:hover .cardDisplay img {
+  transform: scale(1.05);
+}
+
+.cardDisplay h2 {
+  margin: 20px 0 0;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.cardDisplay p {
+  font-family: "Ubuntu Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Hover Display State */
+.cardHover {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, min-height 0.3s ease;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cardInner:hover .cardHover {
+  display: block;
+  opacity: 1;
+  position: relative;
+  min-height: fit-content;
+}
+
+.cardHover h2 {
+  margin: 20px 0;
+}
+
+.cardHover p {
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Social Links */
+.socialLink {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.socialLink:hover {
+  color: #0e7490;
+}
+
+.socialIcon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+

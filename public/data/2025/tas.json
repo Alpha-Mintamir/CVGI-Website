@@ -1,0 +1,74 @@
+[
+  {
+    "FullName": "Katie Luo",
+    "ResearchAreaInterest": "RA",
+    "Bio": "Ph.D. from Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Bharath Hariharan. Research focuses on computer vision and perception for self-driving.",
+    "Picture": "KatieLuo.jpg",
+    "GithubWebsite": "https://www.cs.cornell.edu/~katieluo/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/katieluo/"
+  },
+  {
+    "FullName": "Nahom Temesgen",
+    "ResearchAreaInterest": "TA",
+    "Bio": "I am passionate about computer graphics and physically based animation, with focus on real-time applications such as video games.",
+    "Picture": "NahomTemesgen.jpg",
+    "GithubWebsite": "https://github.com/nonyx777",
+    "LinkedinWebsite": "https://linkedin.com/in/nahomtemesgen"
+  },
+  {
+    "FullName": "Joshua Tadesse Mekuriaw",
+    "ResearchAreaInterest": "TA",
+    "Bio": "Enthusiastic and hard-working computer engineer passionate about solving real-life problems with software and AI. Skilled in 3D graphics, art, and video game development.",
+    "Picture": "JoshuaTadesseMekuriaw.jpg",
+    "GithubWebsite": "https://github.com/JoshuaTadesse",
+    "LinkedinWebsite": "https://www.linkedin.com/in/joshua-tadesse-aa8081225/"
+  },
+  {
+    "FullName": "Mahlet Assefa Girma",
+    "ResearchAreaInterest": "RA",
+    "Bio": "4th-year Software Engineering student at AASTU. Focused on Computer Vision, with expertise in image segmentation and its practical applications.",
+    "Picture": "MahletAssefaGirma.jpg",
+    "GithubWebsite": "https://github.com/Mahlet-assefa",
+    "LinkedinWebsite": "https://www.linkedin.com/in/mahlet-assefa-b060062a2"
+  },
+  {
+    "FullName": "Alpha Lencho",
+    "ResearchAreaInterest": "TA",
+    "Bio": "Alpha Lencho is a final-year Information Systems student at Addis Ababa University. He is passionate about working with data and exploring its potential. His main interests are in Machine Learning, especially Natural Language Processing and Computer Vision.",
+    "Picture": "AlphaLencho.jpeg",
+    "GithubWebsite": "https://github.com/Alpha-Mintamir",
+    "LinkedinWebsite": "https://www.linkedin.com/in/alpha-lencho-13b8281bb/"
+  },
+  {
+    "FullName": "Dawit Getahun Mengistu",
+    "ResearchAreaInterest": "RA",
+    "Bio": "Software engineering student at Addis Ababa Institute of Technology, studying AI. Passionate about research and theoretical advancements in machine learning.",
+    "Picture": "DawitGetahunMengistu.jpg",
+    "GithubWebsite": "https://github.com/dawit-getahun-mengistu",
+    "LinkedinWebsite": "https://www.linkedin.com/in/dawit-getahun-mengistu/"
+  },
+  {
+    "FullName": "Milky Mohammed Hasena",
+    "ResearchAreaInterest": "TA",
+    "Bio": "Passionate web developer, UI/UX designer, game developer, 3D animator and modeler. Deep interest in computer graphics, game development, and web development.",
+    "Picture": "MilkyMohammedHasena.jpg",
+    "GithubWebsite": "https://github.com/milkymohammed",
+    "LinkedinWebsite": "https://www.linkedin.com/in/milky-hasena"
+  },
+  {
+    "FullName": "Sebrina Mudesir",
+    "ResearchAreaInterest": "TA",
+    "Bio": "",
+    "Picture": "SebrinaMudesir.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": ""
+  },
+  {
+    "FullName": "Seifegebreal Mosisa",
+    "ResearchAreaInterest": "RA",
+    "Bio": "AI/ML enthusiast with a passion for exploring the cutting edge of Generative AI and Computer Vision.",
+    "Picture": "SeifegebrealMosisa.jpg",
+    "GithubWebsite": "https://www.github.com/Seife1",
+    "LinkedinWebsite": "https://www.linkedin.com/in/seifemosi"
+  }
+]

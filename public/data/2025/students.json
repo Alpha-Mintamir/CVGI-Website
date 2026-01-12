@@ -1,0 +1,122 @@
+[
+  {
+    "FullName": "Abdallah Ibrahim Ismail",
+    "ResearchAreaInterest": "Computer Vision and TinyML",
+    "Bio": "A versatile software engineer and researcher with core experience across software engineering, robotics, and TinyML. My long-term goal is to work on highly challenging problems and lead a positive change in our society.",
+    "Picture": "AbdallahIbrahimIsmail.jpg",
+    "GithubWebsite": "https://github.com/Apolo151/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/abdallah-ismail15/"
+  },
+  {
+    "FullName": "Bemnet Aschalew Wodaj",
+    "ResearchAreaInterest": "Non-spatial Control in Diffusion Models",
+    "Bio": "A software engineering student and AI enthusiast.",
+    "Picture": "BemnetAschalewWodaj.jpg",
+    "GithubWebsite": "https://github.com/Bemnet-13",
+    "LinkedinWebsite": "https://www.linkedin.com/in/bemnet-aschalew-9868a2295/"
+  },
+  {
+    "FullName": "Hailish Ameha Asefa",
+    "ResearchAreaInterest": "Computational Design, Computer Vision, Graphics",
+    "Bio": "Architecture graduate and aspiring researcher. Interested in the intersection of Computational Design, Human-Centered Design, Computer Vision, and graphics for the built environment.",
+    "Picture": "HailishAmehaAsefa.jpg",
+    "GithubWebsite": "https://github.com/qw37ty",
+    "LinkedinWebsite": "https://www.linkedin.com/in/hailish-a-856439290"
+  },
+  {
+    "FullName": "Hewan Sirak Getahun",
+    "ResearchAreaInterest": "Computer Vision, Precision Medicine",
+    "Bio": "Software engineer with an experience in AI, backend development, and research.",
+    "Picture": "HewanSirakGetahun.jpg",
+    "GithubWebsite": "https://github.com/hewansirak",
+    "LinkedinWebsite": "https://www.linkedin.com/in/hewan-sirak"
+  },
+  {
+    "FullName": "Kalkidan Tadesse",
+    "ResearchAreaInterest": "Spatial and Semantic Control in 2D Diffusion Models",
+    "Bio": "I'm a Computer Science graduate from the American College of Technology, where I discovered my passion for Machine Learning and Computer Vision. Currently channeling my curiosity into hands-on research initiatives and internships.",
+    "Picture": "KalkidanTadesse.webp",
+    "GithubWebsite": "https://github.com/kalkidantad",
+    "LinkedinWebsite": "https://linkedin.com/in/kt-in"
+  },
+  {
+    "FullName": "Kibru Abebe Mamo",
+    "ResearchAreaInterest": "AI, ML, Computer Vision",
+    "Bio": "Founder and AI Researcher at Ethiopian Researchers. Software Engineer at INSA. I specialize in software architecture and design, with a distinguished academic record. Graduated in Software Engineering with distinction from Jimma University. Interested in AI, ML, and cyber security.",
+    "Picture": "KibruAbebeMamo.jpg",
+    "GithubWebsite": "https://kibruabebe.com/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/kibru-abebe/"
+  },
+  {
+    "FullName": "Kidus Paulos",
+    "ResearchAreaInterest": "Vision-Language Models, AI Interpretability",
+    "Bio": "I am a final-year undergraduate Computer Science student interested in applied AI and computer vision. My capstone project explores teaching vision models subjective and high-level concepts using language supervision, and I am preparing for research-oriented graduate study.",
+    "Picture": "KidusPaulos.jpg",
+    "GithubWebsite": "https://github.com/Heiliger4",
+    "LinkedinWebsite": "https://linkedin.com/in/kiduspaulos"
+  },
+  {
+    "FullName": "Michael Shimeles",
+    "ResearchAreaInterest": "Computer Vision",
+    "Bio": "Exploring computer vision, breaking models, and figuring out why they fail.",
+    "Picture": "MichaelShimeles.jpg",
+    "GithubWebsite": "https://github.com/michael-099",
+    "LinkedinWebsite": "https://www.linkedin.com/in/michael-shimeles-350577248/"
+  },
+  {
+    "FullName": "Mihiret Gashaw Birega",
+    "ResearchAreaInterest": "Computer Vision",
+    "Bio": "I am a System Analyst passionate about AI and data science, with experience in requirements engineering, project management, and data engineering. I am interested in developing practical, impact-driven solutions and conducting innovative research in computer vision.",
+    "Picture": "MihiretGashawBirega.jpg",
+    "GithubWebsite": "https://github.com/mihiretgashaw",
+    "LinkedinWebsite": "https://www.linkedin.com/in/mihiretgashaw"
+  },
+  {
+    "FullName": "Mihret Agegnehu Bekele",
+    "ResearchAreaInterest": "Computer Vision, AI",
+    "Bio": "Stay Curious",
+    "Picture": "MihretAgegnehuBekele.jpg",
+    "GithubWebsite": "https://miheret-agegnehu.netlify.app/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/mihret-bekele/"
+  },
+  {
+    "FullName": "Minase Fikadu",
+    "ResearchAreaInterest": "Computer Vision and Model Interpretability",
+    "Bio": "I am a software engineer and data scientist with a degree in Software Engineering from Addis Ababa Science and Technology University. I work primarily as a full-stack developer while also having hands-on experience in data science. I'm passionate about learning, solving real-world problems, and continuously improving my skills.",
+    "Picture": "MinaseFikadu.jpg",
+    "GithubWebsite": "https://github.com/manasseh-fikadu",
+    "LinkedinWebsite": "https://www.linkedin.com/in/minase-fikadu/"
+  },
+  {
+    "FullName": "Mohamed Omar Adde",
+    "ResearchAreaInterest": "Deep Learning for Medicine",
+    "Bio": "I'm an Anesthetist, with background of programming and interest in deep learning for medicine.",
+    "Picture": "MohamedOmarAdde.jpg",
+    "GithubWebsite": "https://github.com/mohaomar495",
+    "LinkedinWebsite": "https://www.linkedin.com/in/mohammad-adde-5b7b20177"
+  },
+  {
+    "FullName": "Nahom Garefo",
+    "ResearchAreaInterest": "Computer Vision and NLP",
+    "Bio": "Senior software engineering student at Addis Ababa University and former Bloomberg intern. I am interested in understanding how systems work, from computer systems and neural networks to computer graphics.",
+    "Picture": "NahomGarefo.jpg",
+    "GithubWebsite": "https://github.com/Blacknahil",
+    "LinkedinWebsite": "https://www.linkedin.com/in/nahom-garefo-304306221/"
+  },
+  {
+    "FullName": "Natnael Abayneh Unasho",
+    "ResearchAreaInterest": "Teaching Vision Models with Language",
+    "Bio": "I am a recent graduate in biomedical engineering from Addis Ababa University and currently pursuing MSc in Artificial Intelligence. I have passion for coding and solving problems.",
+    "Picture": "NatnaelAbaynehUnasho.jpg",
+    "GithubWebsite": "https://natnael-abayneh-portfolio.web.app/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/natnael-abayneh-44423727b"
+  },
+  {
+    "FullName": "Tsegazeab Kebede",
+    "ResearchAreaInterest": "Computer Vision in Edge Devices",
+    "Bio": "I am an Electrical Engineering Student at Higher Colleges of Technology, who loves exploring ideas in math, computer science and low level electronics. I have developed a prototype for SAGE (Smart Assistive Guidance Equipment) that integrated smart glasses with smart canes for blind people.",
+    "Picture": "TsegazeabKebede.png",
+    "GithubWebsite": "https://github.com/Tsegazeab3",
+    "LinkedinWebsite": "https://www.linkedin.com/in/tsegazeab422/"
+  }
+]

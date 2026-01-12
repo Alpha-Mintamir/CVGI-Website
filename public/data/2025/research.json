@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "single-photon-detector",
+    "title": "Single Photon Detector Image Restoration",
+    "subtitle": "Tsegazeab Kebede, Mihret Gashaw, Prateek Chennuri",
+    "image": "/Research Project Images/2025/SinglePhotonDetectorImageRestoration.png"
+  },
+  {
+    "slug": "spatial-semantic-diffusion",
+    "title": "Spatial and Semantic Control in 2D Diffusion Models",
+    "subtitle": "Yordanos Tefera, Bemnet Aschalew, Kalkidan Tadesse, Kibru Abebe, Mahlet Assefa, Biruk Abere",
+    "image": "/Research Project Images/2025/SpatialSemanticControl2DDiffusion.png"
+  },
+  {
+    "slug": "steering-vision-models",
+    "title": "Steering Vision Models with Subjective Concepts",
+    "subtitle": "Mihret Bekele, Natnael Abayneh, Kidus Paulos, Amanuel Gizachew | Mentor: Simret Araya, RA: Dawit Getahun",
+    "image": "/Research Project Images/2025/SteeringVisionModelsSubjectiveConcepts.png"
+  },
+  {
+    "slug": "vision-language-misalignment",
+    "title": "Vision-Language Misalignment and Visual Grounding",
+    "subtitle": "Abdallah Ismail, Michael Shimeles, Michael Abebe, Seifegebreal Mosisa, Bontu Balcha",
+    "image": "/Research Project Images/2025/VisionLanguageMisalignment.png"
+  },
+  {
+    "slug": "4d-video-relighting",
+    "title": "4D Video Relighting",
+    "subtitle": "Abel Tesgaye, Hailish Asefa, Tensae Berhanu | Mentors: Gemmechu Hassena, Zichen Wang",
+    "image": "/Research Project Images/2025/4DVideoRelighting.png"
+  },
+  {
+    "slug": "vision-models-depth",
+    "title": "Do Vision Models Use Their Depth Efficiently?",
+    "subtitle": "Minase Fikadu, Hewan Sirak, Mohamed Adde, Naol T. Dibaba, Katie Luo, Amanuel Negash",
+    "image": "/Research Project Images/2025/VisionModelsDepthEfficiency.png"
+  }
+]

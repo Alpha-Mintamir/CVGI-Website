@@ -1,0 +1,66 @@
+[
+  {
+    "FullName": "Gemmechu Hassena",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "I am a CS PhD student at Cornell University working at the intersection of Machine Learning, Computer Vision, and Graphics. My research focuses on 3D reconstruction, relighting, and scene understanding under occlusion.",
+    "Picture": "GemmechuHassena.jpg",
+    "GithubWebsite": "https://gemmechu.github.io/",
+    "LinkedinWebsite": "https://et.linkedin.com/in/gemmechu"
+  },
+  {
+    "FullName": "Amanuel Negash",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "ML Lead at TestSavant.AI, working on AI security platform. Focused on efficient AI systems and deep learning theory.",
+    "Picture": "AmanuelNegash.jpg",
+    "GithubWebsite": "https://leobitz.github.io",
+    "LinkedinWebsite": "https://www.linkedin.com/in/leobitz/"
+  },
+  {
+    "FullName": "Biruk Abere",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "PhD student at Dalhousie University in Halifax, working on Reinforcement Learning and Machine Learning.",
+    "Picture": "BirukAbere.jpg",
+    "GithubWebsite": "https://github.com/Biruk-Abere",
+    "LinkedinWebsite": "https://www.linkedin.com/in/biruk-abere-479aba215/"
+  },
+  {
+    "FullName": "Bontu",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "",
+    "Picture": "Bontu.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": ""
+  },
+  {
+    "FullName": "Prateek Chennuri",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "",
+    "Picture": "PrateekChennuri.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": ""
+  },
+  {
+    "FullName": "Simret Gebreegziabher",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "",
+    "Picture": "SimretGebreegziabher.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": ""
+  },
+  {
+    "FullName": "Surafel Kindu",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "Full-Stack Developer with a deep interest in Large Language Models (LLMs) and Computer Vision. Focused on developing AI-driven solutions, with ongoing research in prompt security and AI guardrails.",
+    "Picture": "SurafelKindu.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": "https://www.linkedin.com/in/surafelk/"
+  },
+  {
+    "FullName": "Zichen",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "",
+    "Picture": "Zichen.jpg",
+    "GithubWebsite": "",
+    "LinkedinWebsite": ""
+  }
+]

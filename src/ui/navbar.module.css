@@ -38,6 +38,37 @@
   margin-right: 15px;
 }
 
+/* Cohort Badge */
+.cohortBadge {
+  background: #3a8e9c;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+/* Cohort Switch Link */
+.cohortSwitch {
+  margin-left: 10px;
+}
+
+.switchLink {
+  background: #a4e0e5 !important;
+  color: #3a8e9c !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 1rem !important;
+  transition: background 0.3s ease;
+}
+
+.switchLink:hover {
+  background: #0e7490 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
 /* Desktop Navigation Links */
 .navLinks {
   list-style: none;

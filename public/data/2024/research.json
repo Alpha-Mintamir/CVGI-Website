@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "group1",
+    "title": "A Scoping Review on the Applications of Diffusion Models in the Medical Field",
+    "subtitle": "Naomi Eskinder Woudneh, Sebrina Akmel Mudesir, Zemzem Hibet Oumer, Sosna Worku Achamyeleh",
+    "image": "/Research Project Images/Diffusion Models in the Medical Field.png"
+  },
+  {
+    "slug": "group2",
+    "title": "Dopplegangers++: Improving 3D Reconstruction with Graph Algorithms for symmetric Objects",
+    "subtitle": "Tinsae Tadesse, Milki Hasena, Gemmechu Hassena",
+    "image": "/Research Project Images/Dopplegangers.png"
+  },
+  {
+    "slug": "group3",
+    "title": "Flash Stage: Relighting with Flashlight",
+    "subtitle": "Nahom Temesgen, Lealem Kinfe, Nanati Oumer, Haileyesus Kassahun, Surafel Mulaw, Gemmechu Hassena",
+    "image": "/Research Project Images/FlashStagePoster.png"
+  },
+  {
+    "slug": "group4",
+    "title": "Inconsistencies in Novel View Synthesis for Videos",
+    "subtitle": "Firi Berhane, Hana Andargie, Joshua Tadesse, Kushal Kedia",
+    "image": "/Research Project Images/Inconsistencies in Novel View Synthesis for Videos.png"
+  },
+  {
+    "slug": "group5",
+    "title": "Adversarial Pixels: Exploring Why Vision Tasks Aren't Fully Solved",
+    "subtitle": "Dawit Getahun, Abenezer Kebede, Mahlet Dereje, Ayda Sultan",
+    "image": "/Research Project Images/Adversarial Pixels.png"
+  },
+  {
+    "slug": "group6",
+    "title": "Language-Guided Image Segmentation Models: A Comparative Study of CLIPSeg, UniLSeg, and Lang_SAM",
+    "subtitle": "Mebatsion Sahle, Seifegebreal Mosisa, Alpha Lencho, Yared Solomon, Elias Girma, Mahlet Assefa, Ayda Sultan, Mahlet Dereje",
+    "image": "/Research Project Images/Language-Guided Image Segmentation Models.png"
+  },
+  {
+    "slug": "group7",
+    "title": "Automated Amharic Braille Recognition Using Image Processing and Contour Detection",
+    "subtitle": "Amir Ahmedin, Amir Fasil, Tsehay Goremes, Henok Belayneh, Tamiru Alemnew, Surafel Kindu",
+    "image": "/Research Project Images/Automated_Amharic_Braille_Recognition_Using_Image_Processing_and.png"
+  }
+]
+

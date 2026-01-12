@@ -3,69 +3,14 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: white;
-  align-items: left;
-  justify-content: center;
 }
 
-.main {
-  width: 100%;
-  max-width: 1100px;
-  padding: 30px;
-  text-align: center;
-}
-
-.logo {
-  margin: 20px auto;
-  display: block;
-}
-
-.ctas {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.primary,
-.secondary {
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.primary {
-  background-color: #0070f3;
-  color: white;
-}
-
-.secondary {
-  background-color: transparent;
-  border: 2px solid #0070f3;
-  color: #0070f3;
-}
-
-.footer {
-  margin-top: auto;
-  padding: 20px;
-  background-color: #222;
-  color: white;
-  text-align: center;
-}
-
-/* Scoped styles */
-.hero h1 {
-  position: relative;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
+/* Hero Section */
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background: url("/image.jpg") center/cover no-repeat;
+  min-height: 100vh;
+  background: url("/home.JPG") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,15 +23,209 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.55);
 }
 
-.heroText {
+.heroContent {
   position: relative;
   z-index: 1;
   color: white;
+  padding: 20px;
 }
 
+.logoWrapper {
+  margin-bottom: 30px;
+}
+
+.heroLogo {
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-family: "Monomaniac One", sans-serif;
+  line-height: 1.2;
+}
+
+.heroSubtitle {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.9;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* About Section */
+.aboutSection {
+  padding: 80px 50px;
+  background: #f8fafc;
+}
+
+.aboutContent {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #3a8e9c;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.aboutText {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #4a5568;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* Cohort Selection Section */
+.cohortSection {
+  padding: 80px 50px;
+  background: white;
+  text-align: center;
+}
+
+.cohortDescription {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.cohortGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cohortCard {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cohortCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(58, 142, 156, 0.25);
+}
+
+.cohortImageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cohortOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.7) 100%);
+}
+
+.cohortInfo {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.cohortYear {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Monomaniac One", sans-serif;
+  line-height: 1;
+  margin-bottom: 10px;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.cohortTitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+.cohortMeta {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.cohortCta {
+  display: inline-block;
+  padding: 12px 28px;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.cohortCard:hover .cohortCta {
+  background: white;
+  color: #3a8e9c;
+}
+
+/* Stats Section */
+.statsSection {
+  padding: 60px 50px;
+  background: #3a8e9c;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.statItem {
+  text-align: center;
+  color: white;
+}
+
+.statNumber {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: "Monomaniac One", sans-serif;
+  margin-bottom: 8px;
+}
+
+.statLabel {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* Legacy styles kept for compatibility */
 .hh1 {
   font-family: "Monomaniac One", sans-serif;
   font-weight: 500;
@@ -96,7 +235,36 @@
   margin-bottom: 10px;
 }
 
+/* Responsive */
 @media (max-width: 920px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .cohortGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .cohortCard {
+    min-height: 350px;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .aboutSection,
+  .cohortSection,
+  .statsSection {
+    padding: 60px 30px;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
   .hh1 {
     margin-left: 20px;
     font-size: 28px;
@@ -104,6 +272,36 @@
 }
 
 @media (max-width: 600px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .cohortYear {
+    font-size: 4rem;
+  }
+  
+  .cohortTitle {
+    font-size: 1.5rem;
+  }
+  
+  .statNumber {
+    font-size: 2.5rem;
+  }
+  
+  .aboutSection,
+  .cohortSection,
+  .statsSection {
+    padding: 50px 20px;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  
   .hh1 {
     margin-left: 15px;
     font-size: 26px;

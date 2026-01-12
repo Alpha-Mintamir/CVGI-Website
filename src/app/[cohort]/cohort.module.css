@@ -1,0 +1,160 @@
+/* Cohort Page Styles */
+
+.page {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 20px;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.cohortBadge {
+  display: inline-block;
+  background: #3a8e9c;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.sectionTitle {
+  font-size: 33px;
+  color: #3a8e9c;
+  font-weight: 500;
+  margin-left: 70px;
+}
+
+.viewAllBtn {
+  background-color: #a4e0e5;
+  color: #3a8e9c;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Ubuntu Sans", serif;
+  text-decoration: none;
+  margin-left: 90px;
+}
+
+.viewAllBtn:hover {
+  background-color: #0e7490;
+  color: #a4e0e5;
+}
+
+/* Gallery Section */
+.galleryTitle {
+  font-size: 33px;
+  color: #3a8e9c;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 920px) {
+  .section {
+    padding: 20px;
+  }
+  
+  .sectionTitle {
+    margin-left: 20px;
+    font-size: 28px;
+  }
+  
+  .viewAllBtn {
+    margin-left: 20px;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 15px;
+  }
+  
+  .sectionTitle {
+    margin-left: 10px;
+    font-size: 26px;
+  }
+  
+  .viewAllBtn {
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+  
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+}
+
