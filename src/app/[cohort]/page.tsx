@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { readFile } from "fs/promises";
+import { join } from "path";
 import styles from "./cohort.module.css";
 import { PersonGrid, Person } from "@/components/PersonCard";
 import { ResearchGrid, ResearchProject } from "@/components/ResearchCard";
@@ -13,12 +15,9 @@ interface CohortPageProps {
 
 async function fetchData<T>(cohort: string, file: string): Promise<T[]> {
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"}/data/${cohort}/${file}`,
-      { cache: "no-store" }
-    );
-    if (!res.ok) return [];
-    return res.json();
+    const filePath = join(process.cwd(), "public", "data", cohort, file);
+    const fileContents = await readFile(filePath, "utf8");
+    return JSON.parse(fileContents);
   } catch {
     return [];
   }
