@@ -1,5 +1,13 @@
 [
   {
+    "FullName": "Katie Luo",
+    "ResearchAreaInterest": "Mentor",
+    "Bio": "Ph.D. from Cornell University, advised by Prof. Kilian Q. Weinberger and Prof. Bharath Hariharan. Research focuses on computer vision and perception for self-driving.",
+    "Picture": "KatieLuo.jpg",
+    "GithubWebsite": "https://www.cs.cornell.edu/~katieluo/",
+    "LinkedinWebsite": "https://www.linkedin.com/in/katieluo/"
+  },
+  {
     "FullName": "Gemmechu Hassena",
     "ResearchAreaInterest": "Mentor & Organizer",
     "Bio": "I am a CS PhD student at Cornell University working at the intersection of Machine Learning, Computer Vision, and Graphics. My research focuses on 3D reconstruction, relighting, and scene understanding under occlusion.",
