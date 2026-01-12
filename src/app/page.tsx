@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "@/ui/navbar";
 import Footer from "@/ui/footer";
-import ProgramSection from "@/app/home-page/ProgramSection";
+// import ProgramSection from "@/app/home-page/ProgramSection";
 
 export default function Home() {
   return (
