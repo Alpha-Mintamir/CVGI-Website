@@ -31,11 +31,10 @@ export default async function CohortPage({ params }: CohortPageProps) {
   }
 
   // Fetch all data for the cohort
-  const [students, staff, tas, organizers, guests, research, galleryImages] = await Promise.all([
+  const [students, staff, tas, guests, research, galleryImages] = await Promise.all([
     fetchData<Person>(cohort, "students.json"),
     fetchData<Person>(cohort, "staff.json"),
     fetchData<Person>(cohort, "tas.json"),
-    fetchData<Person>(cohort, "organizers.json"),
     fetchData<Person>(cohort, "guests.json"),
     fetchData<ResearchProject>(cohort, "research.json"),
     fetchData<string>(cohort, "gallery.json"),
